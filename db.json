@@ -1,9 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "todos": [
+    {
+      "id": "91181c2d-0eac-0264-6154-af37d0280510",
+      "title": "리액트 공부하기",
+      "content": "리액트 강의",
+      "isDone": false
+    },
+    {
+      "id": "81a4a5f2-f1b7-3c58-8999-99dfcd935a71",
+      "title": "타입스크립트 과제",
+      "content": "레벨5 완료하기",
+      "isDone": true
+    },
+    {
+      "id": "2694c470-b278-a55b-fca2-d73d171fd19c",
+      "title": "건강챙기기",
+      "content": "스트레칭 하기",
+      "isDone": false
+    },
+    {
+      "id": "7f40c1e3-4fd7-6a85-3e50-ab39e0c3c155",
+      "title": "저녁 챙겨먹기",
+      "content": "메추리 보고 메뉴 정하기",
+      "isDone": false
+    }
+  ]
 }
